@@ -85,13 +85,18 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-container {
-  max-width: 1140px;
+  max-width: 1080px;
   position: relative;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
+.gtco-container-slider{
+  max-width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .gtco-nav {
   position: relative;
   top: 0;
