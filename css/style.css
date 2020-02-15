@@ -96,6 +96,20 @@ h1, h2, h3, h4, h5, h6, figure {
   max-width: 100%;
   padding-left: 0px;
   padding-right: 0px;
+  position: relative;
+  text-align: center;
+  color: white;
+ 
+}
+.slider-intro{
+  text-align: center;
+  font-size: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .gtco-container-slider img{
+    height: 500px;
+  }
 }
 .gtco-nav {
   position: relative;
@@ -1615,11 +1629,17 @@ blockquote p > cite {
   box-shadow: inset -27px -181px 151px -121px rgba(0, 0, 0, 0.75);
 }
 .owl-carousel-fullwidth .item > a .slider-copy {
-  position: absolute;
+  /* position: absolute;
   bottom: 10px;
   left: 20px;
   right: 20px;
-  z-index: 10;
+  z-index: 10; */
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  
 }
 .owl-carousel-fullwidth .item > a .slider-copy h2 {
   color: #fff;
