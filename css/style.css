@@ -16,10 +16,18 @@ body {
   font-family: "Merriweather", serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1;
   color: #777;
   background: #fff;
 }
+
+/* body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+} */
 
 #page {
   position: relative;
@@ -100,7 +108,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-container-slider {
   max-width: 100%;
   padding-left: 0px;
-  padding-right: 0px;
+  /* padding-right: 0px; */
   position: relative;
   text-align: center;
   color: white;
@@ -118,7 +126,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   width: 100%;
-  padding: 30px 0;
+  padding: 10px 0;
   z-index: 1001;
   font-family: "Montserrat", sans-serif;
 }
@@ -156,6 +164,10 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   margin: .4em 0 0 0;
 }
+
+/* .gtco-nav-menubar {
+  padding-top: 150px;
+} */
 
 .gtco-nav ul li {
   padding: 0;
@@ -509,6 +521,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0 !important;
   width: 100%;
   float: left;
+  line-height: 1.7;
 }
 
 #gtco-footer a:hover {
@@ -1783,7 +1796,7 @@ blockquote p>cite {
 }
 
 .owl-carousel-fullwidth .item {
-  border: #000 solid 1px;
+  /* border: #000 solid 1px; */
   overflow: hidden;
   height: 550px;
   position: relative;
@@ -1798,7 +1811,6 @@ blockquote p>cite {
 
 .owl-carousel-fullwidth .item>a {
   display: block;
-  /* border: #4cae4c solid 1px; */
   position: relative;
   z-index: 2;
 }
@@ -1836,7 +1848,7 @@ blockquote p>cite {
   position: relative;
   width: 100%;
   height: auto;
-  top: 50%;
+  top: 40%;
   color: white;
   /* background-color: rgba(0, 0, 0, 0.5); */
   z-index: 9000;
@@ -1846,7 +1858,7 @@ blockquote p>cite {
   position: absolute;
   height: 550px;
   /* border: red solid 2px; */
-  width: 100%;
+  width: 99%;
 }
 
 .slider-copy h1 {
