@@ -114,6 +114,10 @@ h1, h2, h3, h4, h5, h6, figure {
   color: white;
 }
 
+.gtco-work-heading {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .gtco-container-slider img {
     height: 500px;
@@ -1621,7 +1625,22 @@ blockquote p>cite {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.gtco-item-desc {
+  border: green solid thin;
+  padding: 10%;
+}
+
 /* Owl Override Style */
+
+.owl-carousel-carousel {
+  padding-top: 10px;
+  /* position: relative; */
+}
+
+.owl-carousel-carousel img {
+  /* float: left; */
+  border-radius: 50%;
+}
 
 .owl-carousel-carousel.owl-theme .owl-controls .owl-nav .owl-next, .owl-carousel-carousel.owl-theme .owl-controls .owl-nav .owl-prev {
   top: 25%;
