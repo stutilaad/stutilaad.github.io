@@ -8,7 +8,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 
@@ -1626,7 +1626,7 @@ blockquote p>cite {
 }
 
 .gtco-item-desc {
-  border: green solid thin;
+  /*border: green solid thin;*/
   padding: 10%;
 }
 
@@ -1834,7 +1834,7 @@ blockquote p>cite {
   z-index: 2;
 }
 
-/* 
+/*
 .owl-carousel-fullwidth .item>a:after {
   z-index: 1;
   content: "";
@@ -1847,7 +1847,7 @@ blockquote p>cite {
   box-shadow: inset 0px -177px 230px -121px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: inset -27px -181px 151px -121px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: inset -27px -181px 151px -121px rgba(0, 0, 0, 0.75);
-  box-shadow: inset -27px -181px 151px -121px rgba(0, 0, 0, 0.75); 
+  box-shadow: inset -27px -181px 151px -121px rgba(0, 0, 0, 0.75);
 } */
 
 /* .owl-carousel-fullwidth .item>a  */
@@ -1857,7 +1857,7 @@ blockquote p>cite {
   bottom: 10px;
   left: 20px;
   right: 20px;
-  z-index: 10; 
+  z-index: 10;
   position: absolute;
   left: 0;
   top: 40%;
@@ -1881,7 +1881,8 @@ blockquote p>cite {
 }
 
 .slider-copy h1 {
-  color: white;
+  color: black;
+  /*size: 2.5em;*/
 }
 
 .slider-main {
