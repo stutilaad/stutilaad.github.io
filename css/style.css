@@ -101,14 +101,31 @@ h1, h2, h3, h4, h5, h6, figure {
   max-width: 1080px;
   position: relative;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+  padding-left: 10px;
+  padding-right: 10px;
+  height: auto;
+}
+
+.img-responsive {
+  /* border: coral solid thick; */
+  height: 250px;
+  width: 250px;
+  /* overflow: hidden; */
+  object-fit: cover;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.gtco-projects .row img {
+  height: 300px;
+  width: 300px;
 }
 
 .gtco-container-slider {
   max-width: 100%;
   padding-left: 0px;
-  /* padding-right: 0px; */
   position: relative;
   text-align: center;
   color: white;
@@ -116,6 +133,10 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .gtco-work-heading {
   text-align: center;
+}
+
+.gtco-project-desc {
+  padding: 100px;
 }
 
 @media screen and (min-width: 768px) {
@@ -556,7 +577,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #gtco-footer .gtco-footer-link {
-  padding-left: 30px;
+  padding-left: 70px;
+  /* text-align: center; */
 }
 
 #gtco-footer .gtco-footer-link h3 {
@@ -642,6 +664,7 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   width: 100%;
   display: block;
+  padding-top: 10px
 }
 
 @media screen and (max-width: 768px) {
@@ -969,8 +992,14 @@ form label {
 
 .gtco-section {
   padding: 3em 0;
+  height: auto;
   clear: both;
   position: relative;
+  border-top: 1px solid #e6e6e6;
+}
+
+.gtco-work {
+  height: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -1625,22 +1654,31 @@ blockquote p>cite {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.gtco-item-desc {
+.gtco-services-desc {
   border: green solid thin;
-  padding: 10%;
+  /* margin-left: 50%; */
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  padding-left: 10%;
+}
+
+.gtco-services-img {
+  padding-top: 5%;
+}
+
+.row {
+  /* border: black solid thick; */
+  height: auto;
+}
+
+.gtco-projects {
+  height: auto;
+  /* padding-bottom: 10px; */
+  /* padding: 10px; */
 }
 
 /* Owl Override Style */
-
-.owl-carousel-carousel {
-  padding-top: 10px;
-  /* position: relative; */
-}
-
-.owl-carousel-carousel img {
-  /* float: left; */
-  border-radius: 50%;
-}
 
 .owl-carousel-carousel.owl-theme .owl-controls .owl-nav .owl-next, .owl-carousel-carousel.owl-theme .owl-controls .owl-nav .owl-prev {
   top: 25%;
@@ -1649,7 +1687,7 @@ blockquote p>cite {
 }
 
 .owl-carousel-fullwidth.owl-theme .owl-controls .owl-nav .owl-next, .owl-carousel-fullwidth.owl-theme .owl-controls .owl-nav .owl-prev {
-  top: 44%;
+  top: 45%;
   z-index: 1001;
   position: absolute;
   -webkit-transition: 0.2s;
@@ -1750,7 +1788,22 @@ blockquote p>cite {
 
 .gto-features {
   border-top: 1px solid #e6e6e6;
+  padding: 0;
+  margin-bottom: 90px;
 }
+
+gto-features.gtco-container .row {
+  padding-top: 20px;
+}
+
+/* gto-features.gtco-container .row h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: #4d4d4d;
+  font-weight: 300;
+  color: #fff;
+} */
 
 .feature-left {
   margin-bottom: 0px;
@@ -1817,7 +1870,7 @@ blockquote p>cite {
 .owl-carousel-fullwidth .item {
   /* border: #000 solid 1px; */
   overflow: hidden;
-  height: 550px;
+  height: 500px;
   position: relative;
   width: 100%;
 }
@@ -1825,7 +1878,10 @@ blockquote p>cite {
 .owl-carousel-fullwidth .item img {
   /* display: block; */
   width: 100%;
-  height: auto;
+  height: 100%;
+  margin: 0px -200px 0px 0px;
+  z-index: -1000;
+  /* border: #000 solid thick; */
 }
 
 .owl-carousel-fullwidth .item>a {
@@ -1852,6 +1908,11 @@ blockquote p>cite {
 
 /* .owl-carousel-fullwidth .item>a  */
 
+#project-slider {
+  width: 100%;
+  height: auto;
+}
+
 .slider-copy {
   /* position: absolute;
   bottom: 10px;
@@ -1861,16 +1922,19 @@ blockquote p>cite {
   position: absolute;
   left: 0;
   top: 40%;
-  width: 100%;
+  width: 100%
   text-align: center;
   */
   position: relative;
-  width: 100%;
+  width: 60%;
+  margin-top: 5px;
+  margin-left: 20%;
   height: auto;
-  top: 40%;
+  top: 10%;
   color: white;
   /* background-color: rgba(0, 0, 0, 0.5); */
   z-index: 9000;
+  /* border: #000 solid thick; */
 }
 
 .hero-wrapper {
@@ -1878,10 +1942,15 @@ blockquote p>cite {
   height: 550px;
   /* border: red solid 2px; */
   width: 99%;
+  /* width: 1px; */
 }
 
-.slider-copy h1 {
-  color: white;
+.slider-copy .slider-intro h1 {
+  color: black;
+  font-size: 60px;
+  /* font-weight: bold; */
+  font-variant: small-caps slashed-zero;
+  line-height: 100%;
 }
 
 .slider-main {

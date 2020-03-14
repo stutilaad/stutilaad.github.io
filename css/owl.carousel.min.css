@@ -157,7 +157,7 @@
 
 .owl-carousel .owl-item img {
     transform-style: preserve-3d;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .owl-carousel .owl-video-wrapper {
