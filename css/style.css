@@ -8,7 +8,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 
@@ -1890,7 +1890,7 @@ gto-features.gtco-container .row {
   z-index: 2;
 }
 
-/* 
+/*
 .owl-carousel-fullwidth .item>a:after {
   z-index: 1;
   content: "";
@@ -1903,7 +1903,7 @@ gto-features.gtco-container .row {
   box-shadow: inset 0px -177px 230px -121px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: inset -27px -181px 151px -121px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: inset -27px -181px 151px -121px rgba(0, 0, 0, 0.75);
-  box-shadow: inset -27px -181px 151px -121px rgba(0, 0, 0, 0.75); 
+  box-shadow: inset -27px -181px 151px -121px rgba(0, 0, 0, 0.75);
 } */
 
 /* .owl-carousel-fullwidth .item>a  */
@@ -1918,7 +1918,7 @@ gto-features.gtco-container .row {
   bottom: 10px;
   left: 20px;
   right: 20px;
-  z-index: 10; 
+  z-index: 10;
   position: absolute;
   left: 0;
   top: 40%;
